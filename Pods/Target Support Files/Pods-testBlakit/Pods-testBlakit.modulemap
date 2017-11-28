@@ -1,0 +1,6 @@
+framework module Pods_testBlakit {
+  umbrella header "Pods-testBlakit-umbrella.h"
+
+  export *
+  module * { export * }
+}

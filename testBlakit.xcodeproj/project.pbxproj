@@ -8,20 +8,36 @@
 
 /* Begin PBXBuildFile section */
 		1B063B6E1FCC00AD00742097 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B063B6D1FCC00AD00742097 /* AppDelegate.swift */; };
-		1B063B701FCC00AD00742097 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B063B6F1FCC00AD00742097 /* ViewController.swift */; };
-		1B063B731FCC00AD00742097 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B063B711FCC00AD00742097 /* Main.storyboard */; };
+		1B063B701FCC00AD00742097 /* WallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B063B6F1FCC00AD00742097 /* WallViewController.swift */; };
+		1B063B731FCC00AD00742097 /* Wall.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B063B711FCC00AD00742097 /* Wall.storyboard */; };
 		1B063B751FCC00AD00742097 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B063B741FCC00AD00742097 /* Assets.xcassets */; };
 		1B063B781FCC00AD00742097 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B063B761FCC00AD00742097 /* LaunchScreen.storyboard */; };
+		1B1C36E61FCC025300DA96B7 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1C36E51FCC025300DA96B7 /* Constants.swift */; };
+		1B1C36F41FCC241800DA96B7 /* WallVKData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1C36F31FCC241800DA96B7 /* WallVKData.swift */; };
+		1BE243821FCC491800637D52 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE243811FCC491800637D52 /* NetworkService.swift */; };
+		1BE243851FCC59AA00637D52 /* WallNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE243841FCC59AA00637D52 /* WallNetworkService.swift */; };
+		1BE243871FCC772A00637D52 /* GetWallResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE243861FCC772A00637D52 /* GetWallResponse.swift */; };
+		1BF8F3FE1FCD6940001B9848 /* GetDataWallTCV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BF8F3FD1FCD6940001B9848 /* GetDataWallTCV.swift */; };
+		81823E3714B0457022955DA5 /* Pods_testBlakit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44F85633F4D151B108098BFC /* Pods_testBlakit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1B063B6A1FCC00AD00742097 /* testBlakit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testBlakit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B063B6D1FCC00AD00742097 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1B063B6F1FCC00AD00742097 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1B063B721FCC00AD00742097 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1B063B6F1FCC00AD00742097 /* WallViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallViewController.swift; sourceTree = "<group>"; };
+		1B063B721FCC00AD00742097 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Wall.storyboard; sourceTree = "<group>"; };
 		1B063B741FCC00AD00742097 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1B063B771FCC00AD00742097 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1B063B791FCC00AD00742097 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B1C36E51FCC025300DA96B7 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		1B1C36F31FCC241800DA96B7 /* WallVKData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallVKData.swift; sourceTree = "<group>"; };
+		1BE243811FCC491800637D52 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		1BE243841FCC59AA00637D52 /* WallNetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallNetworkService.swift; sourceTree = "<group>"; };
+		1BE243861FCC772A00637D52 /* GetWallResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetWallResponse.swift; sourceTree = "<group>"; };
+		1BF8F3FD1FCD6940001B9848 /* GetDataWallTCV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetDataWallTCV.swift; sourceTree = "<group>"; };
+		44F85633F4D151B108098BFC /* Pods_testBlakit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_testBlakit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D435A7703C413153A2644DC5 /* Pods-testBlakit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testBlakit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-testBlakit/Pods-testBlakit.debug.xcconfig"; sourceTree = "<group>"; };
+		ED6F4317DC664ECF6DAF3F8B /* Pods-testBlakit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testBlakit.release.xcconfig"; path = "Pods/Target Support Files/Pods-testBlakit/Pods-testBlakit.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81823E3714B0457022955DA5 /* Pods_testBlakit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +57,8 @@
 			children = (
 				1B063B6C1FCC00AD00742097 /* testBlakit */,
 				1B063B6B1FCC00AD00742097 /* Products */,
+				5A6DDA049FD36BADCC7F4806 /* Pods */,
+				31D727E0FE2E564B92F83BD8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +73,133 @@
 		1B063B6C1FCC00AD00742097 /* testBlakit */ = {
 			isa = PBXGroup;
 			children = (
-				1B063B6D1FCC00AD00742097 /* AppDelegate.swift */,
-				1B063B6F1FCC00AD00742097 /* ViewController.swift */,
-				1B063B711FCC00AD00742097 /* Main.storyboard */,
-				1B063B741FCC00AD00742097 /* Assets.xcassets */,
-				1B063B761FCC00AD00742097 /* LaunchScreen.storyboard */,
-				1B063B791FCC00AD00742097 /* Info.plist */,
+				1B1C36EA1FCC038900DA96B7 /* Application */,
+				1B1C36EC1FCC03EE00DA96B7 /* WallVK */,
+				1B1C36F01FCC048700DA96B7 /* Supporting files */,
 			);
 			path = testBlakit;
+			sourceTree = "<group>";
+		};
+		1B1C36E71FCC034A00DA96B7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1B063B6D1FCC00AD00742097 /* AppDelegate.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1B1C36E81FCC035900DA96B7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1B063B761FCC00AD00742097 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1B1C36E91FCC036100DA96B7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1B1C36E51FCC025300DA96B7 /* Constants.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1B1C36EA1FCC038900DA96B7 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				1B1C36E91FCC036100DA96B7 /* Model */,
+				1B1C36E81FCC035900DA96B7 /* View */,
+				1B1C36E71FCC034A00DA96B7 /* Controller */,
+				1BE243801FCC48F500637D52 /* NetworkServise */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		1B1C36EC1FCC03EE00DA96B7 /* WallVK */ = {
+			isa = PBXGroup;
+			children = (
+				1B1C36EF1FCC041900DA96B7 /* Model */,
+				1B1C36EE1FCC041200DA96B7 /* View */,
+				1B1C36ED1FCC040400DA96B7 /* Controller */,
+				1BE243831FCC596200637D52 /* WallNetworkServise */,
+				1BF8F3FF1FCD77D2001B9848 /* Response */,
+			);
+			path = WallVK;
+			sourceTree = "<group>";
+		};
+		1B1C36ED1FCC040400DA96B7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1B063B6F1FCC00AD00742097 /* WallViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1B1C36EE1FCC041200DA96B7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1B063B711FCC00AD00742097 /* Wall.storyboard */,
+				1BF8F3FD1FCD6940001B9848 /* GetDataWallTCV.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1B1C36EF1FCC041900DA96B7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1B1C36F31FCC241800DA96B7 /* WallVKData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1B1C36F01FCC048700DA96B7 /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				1B063B741FCC00AD00742097 /* Assets.xcassets */,
+				1B063B791FCC00AD00742097 /* Info.plist */,
+			);
+			path = "Supporting files";
+			sourceTree = "<group>";
+		};
+		1BE243801FCC48F500637D52 /* NetworkServise */ = {
+			isa = PBXGroup;
+			children = (
+				1BE243811FCC491800637D52 /* NetworkService.swift */,
+			);
+			path = NetworkServise;
+			sourceTree = "<group>";
+		};
+		1BE243831FCC596200637D52 /* WallNetworkServise */ = {
+			isa = PBXGroup;
+			children = (
+				1BE243841FCC59AA00637D52 /* WallNetworkService.swift */,
+			);
+			path = WallNetworkServise;
+			sourceTree = "<group>";
+		};
+		1BF8F3FF1FCD77D2001B9848 /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				1BE243861FCC772A00637D52 /* GetWallResponse.swift */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		31D727E0FE2E564B92F83BD8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44F85633F4D151B108098BFC /* Pods_testBlakit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5A6DDA049FD36BADCC7F4806 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D435A7703C413153A2644DC5 /* Pods-testBlakit.debug.xcconfig */,
+				ED6F4317DC664ECF6DAF3F8B /* Pods-testBlakit.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +209,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1B063B7C1FCC00AD00742097 /* Build configuration list for PBXNativeTarget "testBlakit" */;
 			buildPhases = (
+				81FF6BE54BAF98C6D2EDE532 /* [CP] Check Pods Manifest.lock */,
 				1B063B661FCC00AD00742097 /* Sources */,
 				1B063B671FCC00AD00742097 /* Frameworks */,
 				1B063B681FCC00AD00742097 /* Resources */,
+				08FBC03DD37D053336D644FB /* [CP] Embed Pods Frameworks */,
+				C3C75FF6CFC5F3C6B9CB13D4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,31 +266,91 @@
 			files = (
 				1B063B781FCC00AD00742097 /* LaunchScreen.storyboard in Resources */,
 				1B063B751FCC00AD00742097 /* Assets.xcassets in Resources */,
-				1B063B731FCC00AD00742097 /* Main.storyboard in Resources */,
+				1B063B731FCC00AD00742097 /* Wall.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		08FBC03DD37D053336D644FB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-testBlakit/Pods-testBlakit-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/VK-ios-sdk/VK_ios_sdk.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/VK_ios_sdk.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-testBlakit/Pods-testBlakit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		81FF6BE54BAF98C6D2EDE532 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-testBlakit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3C75FF6CFC5F3C6B9CB13D4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-testBlakit/Pods-testBlakit-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1B063B661FCC00AD00742097 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B063B701FCC00AD00742097 /* ViewController.swift in Sources */,
+				1BE243851FCC59AA00637D52 /* WallNetworkService.swift in Sources */,
+				1B063B701FCC00AD00742097 /* WallViewController.swift in Sources */,
 				1B063B6E1FCC00AD00742097 /* AppDelegate.swift in Sources */,
+				1B1C36E61FCC025300DA96B7 /* Constants.swift in Sources */,
+				1BE243821FCC491800637D52 /* NetworkService.swift in Sources */,
+				1B1C36F41FCC241800DA96B7 /* WallVKData.swift in Sources */,
+				1BF8F3FE1FCD6940001B9848 /* GetDataWallTCV.swift in Sources */,
+				1BE243871FCC772A00637D52 /* GetWallResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		1B063B711FCC00AD00742097 /* Main.storyboard */ = {
+		1B063B711FCC00AD00742097 /* Wall.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				1B063B721FCC00AD00742097 /* Base */,
 			);
-			name = Main.storyboard;
+			name = Wall.storyboard;
 			sourceTree = "<group>";
 		};
 		1B063B761FCC00AD00742097 /* LaunchScreen.storyboard */ = {
@@ -272,11 +473,12 @@
 		};
 		1B063B7D1FCC00AD00742097 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D435A7703C413153A2644DC5 /* Pods-testBlakit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 35Z3V435NR;
-				INFOPLIST_FILE = testBlakit/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/testBlakit/Supporting files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ruslan-rudenya-mail.ru.testBlakit";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -287,11 +489,12 @@
 		};
 		1B063B7E1FCC00AD00742097 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED6F4317DC664ECF6DAF3F8B /* Pods-testBlakit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 35Z3V435NR;
-				INFOPLIST_FILE = testBlakit/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/testBlakit/Supporting files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ruslan-rudenya-mail.ru.testBlakit";
 				PRODUCT_NAME = "$(TARGET_NAME)";
